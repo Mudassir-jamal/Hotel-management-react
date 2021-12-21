@@ -1,0 +1,211 @@
+.signup_main{
+    border:2px solid black;
+    margin:0 auto;
+    width: 35%;
+    height: 80vh;
+    border-radius: 20px;
+
+    /* display: flex;
+    justify-content: center; */
+}
+
+.signup_main h1{
+    font-weight: bold;
+    font-family: poppins;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.input_wrapper{
+    border:1px solid gray;
+    border-radius: 10px;
+    width: 80%;
+    margin:1rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.input_wrapper input{
+    width: 80%;
+    height: 40px;
+    font-weight: bold;
+    padding: 5px;
+    background: none;
+    outline: none;
+    margin: 0 0.7rem;
+    border: none;
+
+
+}
+
+.signup_main .icon{
+    color: gray;
+    font-size: large;
+}
+
+.signup_main  .btn{
+    /* background-color:black; */
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+ .btn button{
+    background-color:black;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+
+.signup_main .link{
+    text-align: center;
+    color: gray;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.btn button:active{
+    background-color: rgb(53, 53, 53);
+
+}
+
+
+/* Login============================================ */
+.Main_page_Login{
+    /* border:2px solid red; */
+    height: 100vh;
+    margin-top: -6%;
+    
+}
+
+.Login_main{
+    /* border:2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    width: 95%;
+    float: right;
+}
+
+.portion1{
+    /* border:2px solid black; */
+    margin:4rem 0;
+    width: 35%;
+    box-shadow: 0px 0px 3px 1px gray;
+    height: 85vh;
+    border-radius: 20px;
+}
+
+.portion1 .link {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+
+.portion1 h1{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.portion1 .btn{
+    color: white;
+    text-align: center;
+    margin: 2rem auto;
+    width: 80%;
+    
+}
+
+
+
+.portion1 .icon{
+    color: gray;
+    font-size: large;
+    margin:0 0.5rem;
+  
+}
+
+.portion2{
+    /* border:2px solid red; */
+    margin:-10px 0;   
+    width:55%;
+    height: 100vh;
+    border-radius: 20px;
+    background-color: var(--Main1);
+    border-radius: 0px 0px 0px 450px;
+    box-shadow: 1px 1px 4px 2px gray;
+}
+
+.portion2 img{
+    margin-left: 4rem;
+}
+
+.portion2 h1{
+    color: var(--Main2);
+    font-weight: bold;
+    margin: 1rem 2rem;
+}
+
+.portion2 p{
+    color: var(--Main2);
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* login sign nbtn */
+
+
+@media screen  and (max-width : 900px){
+    .Login_main{
+        /* border:2px solid green; */
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        /* height: 90vh;
+        width: 95%; */}
+
+        .portion1{
+            width: 80%;
+            margin: -5rem auto;
+            height: 80vh;
+        }
+
+        /* .portion1 h1{
+            color: white;
+            font
+        } */
+
+        .portion2{
+            width: 100%;
+            z-index: -100;
+            position: relative;
+            height: 400px !important;
+            margin-top: 20px;
+            box-shadow: none;
+        }
+
+        .portion2 img{
+            display: none
+        }
+
+        .portion2 p{
+            display: none
+        }
+      
+
+    
+}

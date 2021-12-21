@@ -1,0 +1,42 @@
+.footer_main{
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* border:2px solid red; */
+    width: 100%;
+}
+
+.footer_contai {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.footer_contai ul{
+    list-style: none;
+}
+
+.footer_contai li h1{
+    font-weight: bold;
+    color: white;
+    text-decoration: underline DARKGRAY;
+    text-decoration-thickness: 4px;
+}
+
+.footer_contai li{
+    color: gray;
+    padding-top: 10px;
+    cursor: pointer;
+    position: relative;
+}
+
+.footer_contai li:hover{
+    color: red;
+}
+
+.footer_icon{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
